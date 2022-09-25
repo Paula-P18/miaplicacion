@@ -7,7 +7,12 @@ function App() {
   return (
   <div>
      <Navbar />
-    <p className="body">Carteras</p>
+   
+    <main>
+      <itemsListConteiner>
+        <p className="body">Carteras</p>
+      </itemsListConteiner>
+    </main>
     </div>
   );
 }
