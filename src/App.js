@@ -1,17 +1,14 @@
 import Navbar from "./Components/Navbar/Navbar";
 import './Components/Navbar/Navbar.css';
-
+import ItemListContainer from "./Components/ItemListContainer/ItemListContainer";
 
 
 function App() {
   return (
   <div>
-     <Navbar />
-   
+     <Navbar />   
     <main>
-      <itemsListConteiner>
-        <p className="body">Carteras</p>
-      </itemsListConteiner>
+      <ItemListContainer />
     </main>
     </div>
   );
